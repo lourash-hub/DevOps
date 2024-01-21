@@ -144,3 +144,82 @@ We will achieve this by following the steps below:
 git remote add origin <link to your github repo>
 ```
 
+After commiting your changes in your local repo. You push the content to the remote repo using the command
+
+```markdown
+git push origin <branch name>
+```
+
+![Github](./Screenshots_backup/add.png)
+
+![Github](./Screenshots_backup/commit.png)
+
+![Github](./Screenshots_backup/push.png)
+
+The word origin refers to your remote repo link, it evaluates to the remote repo url. It can be any word you choose.
+
+
+### Cloning Remote Git Repository
+In the last Lesson, We successfully added a remote git repository and pushed our story in the local repository. Now our colleague can now make contributions to our story.
+Give it a thought, will he be working on our story on github directly on make a local copy?
+Best practice dictates that he makes a copy of our story locally in his local machine, creates a branch where he can make all the modi cations he sees t.
+But how is he going to make a local copy of our story in his local machine? Git clone command to the rescue.
+The git clone command helps us make a copy of remote repository in our local machine. See it as a git tool for downloading remote repository into our local machine. The command is as follows:
+
+
+git clone <link to your remote repository>
+
+
+### Branch Management and Tagging
+Introduction to Markdown Syntax
+Markdown syntax is a lightweight markup language that is widely used for formatting plain text. It allows you to add formatting elements to your text without using complex HTML or other formatting languages. Markdown is commonly used for creating documents, README files, forum posts, and even web pages.
+Here is the most commonly used markdown syntax elements:
+1.	Headings: To create heading, use the hash symbol at the beginning of the line. The number of hash symbol used indicate the level of the heading.
+
+```bash
+# Heading 1
+## Heading 2
+### Heading 3
+```
+
+2.	Emphasis: asterisks or underscore is used to Emphasis text
+
+```bash
+*italic* or _italic_
+**bold** or __bold__
+```
+
+3.	Lists: markdown has support for both ordered and unordered list unordered list example:
+
+ - Item 1
+- Item 2
+- Item 3
+
+ordered lisy
+1. First item
+2. Second item
+3. Third item
+
+
+
+4.	Links: : To create a hyperlink, use square brackets for the link text followed by parentheses containing the URL. example:
+
+```markdown
+[visit darey.io](https://www.darey.io)
+```
+
+5.	Images: To display an image, use an exclamation mark followed by square brackets for the alt text and parentheses containing the image URL.
+
+```markdown
+![Alt Text](https://example.com/image.jpg)
+```
+6.	Code: To display code or code snippets, use backticks (`) to enclose the code.
+example:
+
+```markdown
+`console.log('Welcome to darey.io')`
+```
+
+
+
+
